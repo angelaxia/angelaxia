@@ -1,26 +1,26 @@
-baseURL: "https://nicktackes.com/"
+baseURL: ""
 languageCode: en-us
-title: Nick Tackes
+title: Angela Xia
 
 Params:
   sidebar:
     alt: "Photograph of the author"
-    menu: ["about", "research", "teaching", "cv"]
+    menu: ["about", "research", "cv"]
     landing: "about"
 
   social:
-    - URL: mailto:jtackesiii@gmail.edu
+    - URL: mailto:axia@sas.upenn.edu
       icon: fas fa-envelope fa-lg
       label: email
-    - URL: https://columbia.academia.edu/NickTackes/
-      icon: ai ai-academia fa-lg
-      label: academia.edu
-    - URL: https://github.com/jtackesiii
-      icon: fab fa-github fa-lg
-      label: github
-    - URL: https://linkedin.com/in/NickTackes
-      icon: fab fa-linkedin fa-lg
-      label: linkedin
+    # - URL: https://columbia.academia.edu/NickTackes/
+    #   icon: ai ai-academia fa-lg
+    #   label: academia.edu
+    # - URL: https://github.com/jtackesiii
+    #   icon: fab fa-github fa-lg
+    #   label: github
+    # - URL: https://linkedin.com/in/NickTackes
+    #   icon: fab fa-linkedin fa-lg
+    #   label: linkedin
 
   credits:
     This site is built on [Hugo](https://gohugo.io),
