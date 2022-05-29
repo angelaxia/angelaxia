@@ -29,24 +29,10 @@
     {{ end }}
     </div> -->
     <ul id="accordion">
-        <h2>projects</h2>
+        <h2>research</h2>
     {{ range sort .Site.Data.research "Date" "desc"}}
         <li>
-            <button class="research-toggle"
-                onclick="javascript:
-                var radio = document.getElementById('{{ .Title | anchorize }}-content');
-                radio.classList.toggle('invisible');
-                var caret = document.getElementById('{{ .Title | anchorize }}-caret');
-                caret.classList.toggle('open');
-            "><i id="{{ .Title | anchorize }}-caret" class="fas fa-caret-right caret"></i> {{ .Title }}</button>
-
-            <div id="{{ .Title | anchorize }}-content" class="content invisible">
-                <p>
-                    {{ .Description | markdownify }}
-                </p>
-                {{ if isset . "Link" }}<a class="visit-link" href="{{ .Link }}" target="_blank">More...</a>{{ end }}
-                <div class="tags">
-                    {{ range .tags }}<span class="tag">#{{ . }}</span>{{ end }}
+          <p>{{ Site.Data.about.research }}</p>
                 </div>
             </div>
         </li>

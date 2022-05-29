@@ -21,6 +21,7 @@ collections:
           - {label: Phone, name: Phone, widget: string}
           - {label: Email, name: Email, widget: string}
           - {label: Description, name: about, widget: markdown}
+          - {label: Research, name: research, widget: markdown}
           - {label: "Profile Image", name: img, widget: file, allow_multiple: false, choose_url: false}
       - label: "CV"
         name: "CV"
